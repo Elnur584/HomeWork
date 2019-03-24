@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="mytodolist.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- head area start -->
+
+    <head></head>
+    <!-- head area end -->
+    <!-- main area start -->
+    <main style="background-color: #E2EAFF;">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 headdiv">
+                    <h1 class="text-white text-center mt-2" style="font-size: 30px;">My ToDo List</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 bodydiv">
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio1" name="customRadio"
+                            class="d-inline-block custom-control-input">
+                        <label class="custom-control-label mt-5" id="labelone" for="customRadio1"
+                            onclick="labelsOver(this)" ondblclick="labelsoverBefore(this)"
+                            >Styleguide
+                            Creation <i class="far fa-trash-alt d-inline-block" style="margin-left:300px;"
+                                onclick="removeIcon(this)"></i></label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label mt-4" for="customRadio2" onclick="labelsOver(this)"
+                            ondblclick="labelsoverBefore(this)" id="labeltwo">Send wireframes
+                            <i class="far fa-trash-alt d-inline-block biniconsclass"
+                                style="margin-left:320px;" onclick="removeIconone(this)"
+                                ></i></label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label mt-4" for="customRadio3" onclick="labelsOver(this)"
+                            ondblclick="labelsoverBefore(this)" id="labelthree">Readability About Page
+                            <i class="far fa-trash-alt d-inline-block biniconsclass"
+                                style="margin-left:273px;" onclick="removeIcontwo(this)"
+                               ></i></label>
+                    </div>
+                    <div class="custom-control custom-radio">
+                        <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                        <label class="custom-control-label mt-4" for="customRadio4" onclick="labelsOver(this)"
+                            ondblclick="labelsoverBefore(this)" id="labelfour">Check Color Contrast<i
+                                class="far fa-trash-alt d-inline-block biniconsclass"
+                                style="margin-left: 293px;" onclick="removeIconthree(this)"
+                                ></i></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 offset-4">
+                    <button class="purplebutton position-absolute" tabindex="-1" onclick="myButton()">
+                        <h1 class="text-white text-center mt-2 d-inline-block" style="font-size: 100%;">+ New Task</h1>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 offset-3">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control mt-4 myInput" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Add New Task">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script src="todolist.js"></script>
+    </main>
+    <!-- main area end -->
+    <!-- footer area start -->
+    <footer></footer>
+    <!-- footer area end -->
+</body>
+
+</html>

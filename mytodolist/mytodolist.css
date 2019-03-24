@@ -1,0 +1,37 @@
+.headdiv{
+    border: 1px solid black;
+    width: 25%;
+    height: 60px;
+    background-color:#AD80E8;
+    margin: 5% auto;
+}
+.bodydiv{
+    border:1px solid purple;
+    width: 25%;
+    height: 350px;
+    margin: 1% auto;
+    background-color: white;
+}
+.circlediv{
+    border: 1px solid grey;
+    border-radius: 100% !important;
+    width:10px;
+    height: 10px;
+    display: inline-block;
+}
+.allli{
+    list-style-type: none;
+    display: inline-block;
+}
+.purplebutton{
+    border:hidden;
+    width:50%;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #AD80E8;
+    margin: -2.5rem 18%;
+}
+#addtaskinput{
+    
+    display: inline-block;
+}

@@ -1,0 +1,287 @@
+.headalldiv{
+    height: 60px;
+}
+.ulmenu{
+ list-style-type: none;
+}
+.ulmenu>a>li{
+    color: rgb(168, 166, 166);
+}
+.ulmenu>a>li:hover{
+    color: #167bb6;
+}
+/* Head Area End */
+/* Main Area Start */
+/* We Business Section Start */
+.allh1{
+    font-size: 65px;
+    color:	#65809E;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 2px rgba(101, 128, 158, 0.788);
+}
+.allparagraph{
+    font-size: 30px;
+    margin-top: -2%;
+    color: 	#122835;
+}
+.buttonspan{
+    border-radius: 20px;
+    background-color: #D58E42;
+    color:white;
+    padding: 8px 18px;
+}
+.buttonspan:hover{
+    background-color:#122835;
+    color:white;
+}
+.buttonspantwo{
+    background-color: #D58E42;
+    color:white;
+}
+.allatag{
+    text-decoration: none;
+    color: rgb(168, 166, 166);
+}
+.allatag:hover{
+    text-decoration: none;
+    color: white;
+}
+/* We Business Section End */
+/* Icons Section Start */
+.iconssectiondivs{
+    height: 180px;
+}
+.iconsaround>i{
+    border: 1px solid rgb(168, 166, 166);
+    font-size: 25px;
+    color:rgb(134, 132, 132);
+    padding: 10px 15px;
+    border-radius: 100%;
+    transform: translateX(110px);
+}
+.squareicon>i{
+    padding: 10px 12px;
+}
+.infinityicon>i{
+    padding: 10px 9px;
+}
+.allh3{
+    font-size: 20px; 
+}
+/* Icons Section End */
+/* Extra Feature Section Start */
+.extrafeaturesectiondivs{
+    height: 450px;
+}
+.allh2{
+    font-size: 25px;
+}
+.featureparagraph{
+    color: rgb(143, 140, 140);
+}
+.extrafeaturesectiondivs>i{
+    color: #0e689c;
+}
+.spanmore{
+   position: absolute;
+   margin-top: 15px;
+}
+/* Extra Feature Section End */
+/* Blue Area Icons Section Start */
+.blueareaiconssectiondivs{
+    height: 180px;
+}
+.blueareaiconssectiondivspart2{
+    margin-left: -4%;
+}
+.blueareaiconssectiondivs>i{
+    font-size:30px;
+    color:whitesmoke;
+    margin-left: 60%;
+    display: inline-block;
+}
+.blueareaiconssectiondivs>p{
+    margin-left: 59%;
+}
+.allh4{
+    font-size: 30px;
+    margin-left: 75%;
+    margin-top: -32px;
+    color:whitesmoke;
+}
+/* Blue Area Icons Section End */
+/* Amazing Template Section Start */
+.allh5{
+    z-index: 1;
+    color:rgb(228, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.384);
+}
+.amazingparagraph{
+    color:rgba(255, 255, 255, 0.911);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Amazing Template Section End */
+/* Creative Works section Start */
+.allh2work{
+    font-size: 30px;
+}
+.borderspan{
+    border: 2px solid #D58E42;
+    width: 50px;
+    position: absolute;
+    margin-left: -25px;  
+}
+/* Creative Works section End */
+/* Pictures Section Start */
+.picturedivs{
+    height: 220px;
+    width: 28%;
+    overflow: hidden;
+}
+.picturedivs::before{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.692);
+    height: 200px;
+    width: 27.3%;
+    border-radius: 5%;
+    margin-top: 10px;
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.picturedivs:hover::before{
+    transition: 1s ease all;
+    z-index: 1;
+    opacity: 1;
+}
+.transitionparagraph{
+    position: absolute;
+    margin-left: 100px;
+    font-size: 60px;
+    margin-top: -150px;
+    color: white;
+    opacity: 0;
+}
+.picturedivs:hover .transitionparagraph{
+    transition: 1s ease all;
+    margin-left: 140px;
+    opacity: 1;
+}
+.allpicturedivs>img{
+    border-radius: 5%;
+}
+.picturedivs:hover .picturedivsimg{
+    transform: scale(1.2);
+    transition: 1s ease all 0.5s;
+}
+.spanmore2{
+    border:1px solid grey;
+    color:grey;
+    margin-left: 38%;
+    background-color: white;
+}
+.picturedivsicon{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: -170px;
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.picturedivs:hover .picturedivsicon {
+    transition: 1s ease all;
+    opacity: 1;
+    color: rgba(255, 255, 255, 0.726);
+    z-index: 1;
+    margin-left: 130px;
+}
+/* Pictures Section End */
+/* Blog Section Area Start */
+.blogsectionspan{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: rgba(213, 142, 66, 0.849);
+}
+/* Blog Section Area End */
+/* Map Section Start */
+.mapiframe::before{
+    content:"";
+    height: 500px;
+    width: 44%;
+    background-color: 	rgb(87, 187, 209);
+    position: absolute;
+    opacity: 0.7;
+    margin-left: 54%;
+}
+.mapinputs{
+    border-radius: 0px !important;
+}
+.mapinputs::placeholder{
+    color:white;
+}
+.allh6{
+    position: absolute !important;
+    margin-top: -480px !important;
+    margin-left: 57%;
+    z-index:1 !important;
+    font-size:30px;   
+}
+.maptextarea{
+    background-color: transparent !important;
+    border-radius: 0px;
+}
+.maptextarea::placeholder{
+    color:white;
+}
+.mapbluearea{
+    position: absolute;
+    margin-top: -27%;
+    height: 400px;
+    width: 40%;
+    margin-left: 57%;
+}
+/* Map Section End */
+/* Main Area End */
+/* Footer Area Start */
+.headerfooter{
+    height: 90px;
+}
+.footerheaderdivs{
+    border:1px solid rgba(48, 47, 47, 0.233) !important;
+    height: 90px;
+}
+.footerheaderdivs>i{
+    border: 1px solid gray;
+    padding:3% 4%;
+    font-size: 18px;
+    border-radius: 100%;
+    color: gray;
+    display: inline-block;
+}
+.facebookicon{
+    padding:3% 6% !important;
+}
+.footerheaderdivs>p{
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 12px;
+}
+.footermaindivs{
+    height: 320px;
+}
+.allli{
+    list-style-type: none;
+    font-size: 12px;
+}
+.allfooterpicturedivs{
+    width: 75%;
+    height: 180px;
+}
+.footerpicturedivs{
+    height: 90px;
+    width: 33.3%;
+}
+/* Footer Area End */

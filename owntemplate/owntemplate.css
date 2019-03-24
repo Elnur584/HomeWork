@@ -1,0 +1,97 @@
+.container{
+    width:95%;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+.row{
+    width:100%;  
+}
+.mainheaddiv{
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.692);
+    z-index: 1;
+    top:0px;
+}
+.headdiv{
+    height: 60px;
+}
+/* Head Area End */
+/* Main Section Start */
+/* We Business Section Start */
+.webusinesssection{
+    height: 600px;
+    background-image: url("image/tablet.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 60px;
+}
+/* First Section End */
+/* Icons Section Start */
+.iconssection{
+    height: 240px;
+    background-color: rgba(241, 235, 235, 0.37);
+}
+/* Icons Section End */
+/* Extra Feature Section Start */
+.extrafeaturesection{
+    height: 450px;
+}
+/* Extra Feature Section End */
+/* Blue Area Icons Section Start */
+.blueareaiconssection{
+    background-color: #0e689c8f;
+    height: 180px;
+}
+/* Blue Area Icons Section End */
+/* Amazing Template Section Start */
+.amazingtemplatesection{
+    height: 400px;
+    background-image: url("image/holdingg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.amazingtemplatesection::before{
+    content: "";
+    position: absolute;
+    margin-left: -16px;
+    background-color: black;
+    opacity: 0.8;
+    width:100%;
+    height: 400px;
+    
+}
+/* Amazing Template Section End */
+/* Creative Works section Start */
+.creativeworks{
+    height: 240px;
+}
+/* Creative Works section End */
+/* Pictures Section Start */
+.picturessection{
+    height: 520px;
+}
+/* Pictures Section End */
+/* Blog Section Start */
+.blogsection{
+    height: 550px;
+    background-color: rgba(241, 235, 235, 0.438);
+}
+.symboldivs{
+    height: 120px;
+}
+/* Blog Section Area End */
+/* Map Section Start */
+.mapsection{
+    height: 500px;
+}
+/* Map Section End */
+/* Main Section End*/
+/* Footer Area Start */
+.footersection{
+    height: 500px;
+    background-color: #353334;
+}
+/* Footer Area End */
