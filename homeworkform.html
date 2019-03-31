@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <form name="newform" action="#"  method="post" onsubmit="return confirm()">
+                        <div class="form-group">
+                            <input class="form-control mt-3 nameinputclass" id="nameinputid" aria-describedby="emailHelp"
+                                type="text" name="nameinput" placeholder="Enter Name">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control nameinputclass" id="nameinputid1" type="text" name="surnameinput"
+                                placeholder="Enter SurName">
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control nameinputclass" id="nameinputid2" type="text" name="birthdayinput"
+                                placeholder="Enter Birthday" id="birthdayid">
+                            <small id="emailHelp" class="form-text text-muted">Birthday format should be like that:
+                                2015-03-25
+                            </small>
+                        </div>
+                        <div class="form-group">
+                            <input class="form-control nameinputclass" id="nameinputid3" type="text" name="emailinput"
+                                placeholder="Enter Email">
+                        </div>
+                        <input type="submit" class="btn btn-primary" value="Submit" onclick="myclickButton()">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                        <form>
+                                <div class="form-row align-items-end">
+                                  <div class="col-auto">
+                                    <label class="mt-5" for="inlineFormInput">Delete User From List</label>
+                                    <input type="text" class="form-control" id="inlineFormInput" placeholder="Enter ID">
+                                  </div>                                  
+                                  <div class="col-auto">
+                                    <button type="submit" class="btn btn-warning mt-5 align-items-end">Delete</button>
+                                    
+                                  </div>
+                                </div>
+                              </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 mt-5">
+                    <p>Sort by list</p>
+                        <button type="button" class="btn btn-outline-primary">Id</button>
+                        <button type="button" class="btn btn-outline-primary">Name</button>
+                        <button type="button" class="btn btn-outline-primary">Surname</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                        <ul class="list-group mt-2" id="myul">
+                                <li class="list-group-item">1.Name Surname Age Email</li>
+                                <li class="list-group-item">2.Name Surname Age Email</li>
+                                <li class="list-group-item">3.Name Surname Age Email</li>
+                                <li class="list-group-item">4.Name Surname Age Email</li>
+                              </ul>
+                </div>
+            </div>
+        </div>
+        <script src="homeworkform.js">
+        
+</script>
+    </main>
+    <footer>
+    </footer>
+</body>
+
+</html>
